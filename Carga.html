@@ -9,67 +9,87 @@
     <title>ProA Shop</title>
 </head>
 
-<header>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <img class="img-navbar" src="img/Logo-index.png">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="col-md-6 nav-item active">
-                    <a class="nav-link" href="Inicio.html">Home </a>
-                </li>
-                <li class="col-md-4 nav-item">
-                    <a class="nav-link" href="Carga.html">Carga</a>
-                </li>
-                <li class="col-md-4 nav-item">
-                    <a class="nav-link" href="Canje.html">Canje</a>
-                </li>
-            </ul>
-            
-        </div>
-    </nav>
-</header>
-
-
 <body>
+    <header>
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img class="img-navbar" src="img/Logo-index.png">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="col-md-6 nav-item active">
+                        <a class="nav-link" href="Inicio.html">Home </a>
+                    </li>
+                    <li class="col-md-4 nav-item">
+                        <a class="nav-link" href="Carga.html">Carga</a>
+                    </li>
+                    <li class="col-md-4 nav-item">
+                        <a class="nav-link" href="Canje.html">Canje</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
 
-    <div class="col-md-10 description-carga">
-        <div class="container-header">
-            <h1>Bienvenido al sistema de carga de ProA Shop</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 description-carga">
+                <div class="container-header">
+                    <h1>Bienvenido al sistema de carga de ProA Shop</h1>
+                </div>
+                <div class="container-help">
+                    <p>Aquí usted podrá depositar dinero en efectivo, para eso le solicitamos que ingrese en los siguientes campos su
+                        nombre, apellido y monto que desea recargar </p>
+                        <br>
+                </div>
+            </div>    
         </div>
-        <div class="container-help">
-            <p>Aquí usted podrá depositar dinero en efectivo, para eso le solicitamos que ingrese en los siguientes campos su
-                nombre, apellido y monto que desea recargar </p>
-                <br>
-        </div>
-    </div>    
- 
-    <div class="col-md-5 col-sm-5 container-carga">
-        <h1 class="titulos">Recargar</h1>
-        <form>  
-            <div class="form-group">
-                <label for="exampleInputEmail1">Username</label>
-                <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Ej: David Quiroga">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Monto a cargar en efectivo</label>
-                <input type="number" class="form-control" aria-describedby="emailHelp" placeholder="Ej: Monto en Pesos">
-            </div>
-            <div class="col-md-4 form-group-clave">
-                <label for="exampleInputEmail1">Clave del Cliente</label>
-                <input type="number" class="form-control" aria-describedby="emailHelp" placeholder="Ej: 2456">
-            </div>
-            <a href="#"><button type="button" class="btn btn-outline-secondary">Submit</button></a>
-        </form>
     </div>
-</body>
+   <div class="container">
+       <div class="row">
+           <div class="col-md 3">
 
-<!-- Footer -->
+           </div>
+        <div class="col-md-6 container-carga">
+            <h1 class="titulos">Recargar</h1>
+            <form>  
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Username</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Ej: David Quiroga">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Monto a cargar en efectivo</label>
+                    <input type="number" class="form-control" aria-describedby="emailHelp" placeholder="Ej: Monto en Pesos">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+
+                        </div>
+                        <div class="col-md-4 form-group-clave">
+                            <label for="exampleInputEmail1">Clave del Cliente</label>
+                            <input type="number" class="form-control" aria-describedby="emailHelp" placeholder="Ej: 2456">
+                        </div>
+                        <div class="col-md-4">
+                            
+                        </div>
+                    </div>
+                </div>
+                <a href="#"><button type="button" class="btn btn-outline-secondary">Submit</button></a>
+            </form>
+        </div>
+            <div class="col-md 3">
+               
+            </div>
+       </div>
+   </div>
+
+   <!-- Footer -->
 <footer class="page-footer font-small">
 
     <!-- Copyright -->
@@ -80,5 +100,5 @@
 
 </footer>
 <!-- Footer -->
-
-</html>
+    
+</body>
